@@ -3,7 +3,7 @@ use jni::objects::{JClass, JString};
 use jni::sys::jstring;
 
 #[no_mangle]
-pub extern "system" fn Java_io_questdb_example_rust_Main_reversedString<'local>(
+pub extern "system" fn Java_io_questdb_example_rust_StrReverse_reversedString<'local>(
     mut env: JNIEnv,
         _class: JClass<'local>,
         input: JString<'local>) -> jstring {
