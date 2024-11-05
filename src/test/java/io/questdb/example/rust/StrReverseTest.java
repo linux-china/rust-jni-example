@@ -9,6 +9,6 @@ public class StrReverseTest {
 
     @Test
     public void testReversedString() {
-        assertEquals("Great Scott, A reversed string!: !dlroW olleH", StrReverse.reversedString("Hello World!"));
+        assertEquals("Reversed: !dlroW olleH", StrReverse.reversedString("Hello World!"));
     }
 }
